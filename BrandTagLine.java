@@ -8,9 +8,9 @@ class BrandTagLine
 {
 	 static void TagLine(int BName)
 	 {
-	   //String n = "nike" ;
+	   String n = "nike" ;
         
-       String n = (int(BName));		
+       //String n = (int(BName));		
 		
 		
 		switch(n)
@@ -57,9 +57,9 @@ class BrandTagLine
 }
 	 public static void main(String arg[])
 	 {
-		int BrandName = Integer.parseInt(arg[0]);
-		     TagLine(BrandName);
-            // TagLine();
+		//int BrandName = Integer.parseInt(arg[0]);
+		    // TagLine(BrandName);
+            TagLine();
 		 }
 	 
 	 
